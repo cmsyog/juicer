@@ -1,8 +1,8 @@
-# juicer-renderer
-php template engine for the light javascript templete - juicer
+# juicer
+php template engine, just like the light javascript templete engine -  [Juicer](https://github.com/PaulGuo/Juicer)
 
 ###Usage
-* See [Juicer syntax](https://github.com/PaulGuo/Juicer).
+* See  .
  
 ###Widgets usage example
 ```html
