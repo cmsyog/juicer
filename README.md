@@ -1,5 +1,5 @@
 # juicer
-php template engine, just like the light javascript templete engine -  [Juicer](https://github.com/PaulGuo/Juicer)
+php template engine, just like the light javascript templete engine -  [Juicer](http://juicer.name/)
 
 ###Usage
 * See  .
