@@ -1,9 +1,5 @@
-<ul style="background-color: #4ab137">
-    {@each list as it,k}
-    <li>${it.name} ${it.age}(index: ${k})</li>
-    {@/each}
-</ul>
 
+{@include subTpl}
 <ul>
     {@each maps as it,k}
     <li>${it.name} ${it.age}</li>
@@ -13,3 +9,5 @@
 <div>
     ${page}
 </div>
+
+{@include subTpl}

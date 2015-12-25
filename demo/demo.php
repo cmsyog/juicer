@@ -5,7 +5,7 @@
  * Date: 2015/12/24
  * Time: 9:27
  */
-require_once("../lib/pump.class.php");
+require_once("../lib/pump.php");
 
 $tpl = file_get_contents('demo.pump');
 $data = array(
@@ -32,6 +32,7 @@ $data = array(
     ),
     'page'=>3,
 );
-$pump = new pump();
-//$pump->setTags('','');
+$pump = new pump(dirname(__FILE__).DS);
+//$pump->setTags('operationOpen','<%');
+
 echo $pump->ParseTemplate($tpl, $data);
